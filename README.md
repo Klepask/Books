@@ -2,6 +2,7 @@
 
 Код. Тайный язык информатики / Code: The Hidden Language of Cоpmputer Hardware and Software / Чарльз Петцольд / Charles Petzold;
 
+Чистая архитектура. Искусство разработки программного обеспечения. / Clean Architecture. A Craftsman's Guide to Software Structure and Design / Роберт Мартин / Robert Martin;
 
 ### Дизайн / Design:
 
