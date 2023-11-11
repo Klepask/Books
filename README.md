@@ -6,7 +6,7 @@
 
 ### Дизайн / Design:
 
-Не заставляйте меня думать / Don't Make Me Thing! A Common Sense Approach to Web Usability / Стив Круг / Steve Krug ;
+Не заставляйте меня думать / Don't Make Me Thing! A Common Sense Approach to Web Usability / Стив Круг / Steve Krug;
 
 Дизайн привычных вещей / Design of Everyday Things / Дональд Норман / Donald Norman;
 

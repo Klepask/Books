@@ -1,6 +1,6 @@
 const binarySearch = (list, item) => {
 
-  if (list.length === 0) return -1;
+  if (list.length === 0) return false;
 
     low = 0;
     hight = list[list.length -1];
@@ -11,11 +11,11 @@ const binarySearch = (list, item) => {
     
     if (list[mid] === item) {
       return mid;
-    }else if (list[mid] < item) {
+    }else if(list[mid] < item) {
       low = mid + 1;
     }else{
       hight = mid - 1;
     }
   }
-  return -1; 
+  return false; 
 }
