@@ -3,7 +3,7 @@ const binarySearch = (list, item) => {
   if (list.length === 0) return false;
 
     let low = 0;
-    let hight = list[list.length -1]; //в границах low и high хранятся границы той части списка, в которой выполняется поиск
+    let hight = list.length - 1; //в границах low и high хранятся границы той части списка, в которой выполняется поиск
 
   while (low <= hight) {
 
