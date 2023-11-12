@@ -1,6 +1,6 @@
 const binarySearch = (list, item) => {
 
-  if (list.length === 0) return false;
+  if (list.length === 0) return None;
 
     let low = 0;
     let hight = list.length - 1; //в границах low и high хранятся границы той части списка, в которой выполняется поиск
@@ -17,5 +17,5 @@ const binarySearch = (list, item) => {
       hight = mid - 1; //много
     }
   }
-  return false;  //значение не существует
+  return None;  //значение не существует
 }
