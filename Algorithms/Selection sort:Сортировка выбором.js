@@ -8,19 +8,15 @@ const findSmallest = (arr) => {
       smallestIndex = i;
     }
   }
-
   return smallestIndex; 
 }
 
 const  selectionSort = (arr) => {
   let newArr = [];
-
+  
   for (let i = 0; i < arr.length; i++) {
-    
     let smallest = findSmallest(arr); //находим наименьший элемент в массиве и добавляем его в новый массив
-
     newArr.push(arr.splice(smallest, 1)[0]);
   }
-
   return newArr;
 }
